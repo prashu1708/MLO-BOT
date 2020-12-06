@@ -62,7 +62,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: MysteryxD/Mystery, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: Prashu1708/MLO-BOT, but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
