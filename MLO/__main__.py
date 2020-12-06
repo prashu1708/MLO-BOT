@@ -34,7 +34,7 @@ else:
 
 import glob
 
-path = "mysterybot/modules/*.py"
+path = "mlouserbot/modules/*.py"
 files = glob.glob(path)
 for name in files:
     with open(name) as f:
@@ -43,17 +43,17 @@ for name in files:
         load_module(shortname.replace(".py", ""))
 
 if Config.ENABLE_ASSISTANTBOT == "ENABLE":
-    path = "mysterybot/modules/assistant/*.py"
+    path = "mlouserbot/modules/assistant/*.py"
     files = glob.glob(path)
     for name in files:
         with open(name) as f:
             path1 = Path(f.name)
             shortname = path1.stem
             start_assistant(shortname.replace(".py", ""))
-    sed.info("Mystery And Assistant Bot Have Been Installed Successfully !")
+    sed.info("Mlouser Bot Have Been Installed Successfully !")
 else:
-    sed.info("mystery Has Been Installed Sucessfully !")
-    sed.info("You Can Visit @MysteryOT For Any Support Or Doubts")
+    sed.info("mlouser Has Been Installed Sucessfully !")
+    sed.info("You Can Visit @MLO_USERBOT For Any Support Or Doubts")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
