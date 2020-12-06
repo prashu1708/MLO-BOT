@@ -107,6 +107,4 @@ will. Specifically you can redistribute and/or modify it under the terms of the
 published by the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version. 
 
-# Thanks
-
-<p align="center"><a href="https://www.github.com/starkgang/fridayuserbot"><img src="https://telegra.ph/file/b4ba4d81ccea5e2ed71ec.jpg" width="5000"></a></p>
+# #Thanks
