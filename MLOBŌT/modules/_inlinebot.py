@@ -16,7 +16,7 @@ if PMPERMIT_PIC is None:
 else:
     WARN_PIC = PMPERMIT_PIC
 LOG_CHAT = Config.PRIVATE_GROUP_ID
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "MLO GANGSTER"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "MLO KING"
 
 
 @tgbot.on(events.InlineQuery)
@@ -58,7 +58,7 @@ async def inline_handler(event):
                         data="whattalk",
                     )
                 ],
-                [custom.Button.inline("Requesting", data="askme")],
+                [custom.Button.inline("Requesting", data="askme what happen")],
             ],
         )
         await event.answer([result])
@@ -105,7 +105,7 @@ async def on_plug_in_callback_query_handler(event):
 )
 async def on_plug_in_callback_query_handler(event):
     if not event.query.user_id == bot.uid:
-        sedok = "Who The Fuck Are You? Get Your Own mystery."
+        sedok = "Who The Fuck Are You? Get Your Own Mlo Userbot."
         await event.answer(sedok, cache_time=0, alert=True)
         return
     plugin_name = event.data_match.group(1).decode("UTF-8")
@@ -167,8 +167,8 @@ async def sed(event):
         await event.answer(sedok, cache_time=0, alert=True)
         return
     buttons = paginate_help(0, CMD_HELP, "helpme")
-    sed = f"""mystery Userbot Modules Are Listed Here !\n
-For More Help or Support Visit @mysteryOT \nCurrently Loaded Plugins: {len(CMD_LIST)}"""
+    sed = f"""MLO-USERBOT Modules Are Listed Here !\n
+For More Help or Support Visit @Mlo_Userbot \nCurrently Loaded Plugins: {len(CMD_LIST)}"""
     await event.edit(message=sed, buttons=buttons)
 
 
@@ -218,7 +218,7 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = sorted(helpable_modules)
     modules = [
         custom.Button.inline(
-            "{} {} {}".format("✘", x, "✘"), data="us_plugin_{}".format(x)
+            "{} {} {}".format("🔱", ❌, "🔱"), data="us_plugin_{}".format(x)
         )
         for x in helpable_modules
     ]
@@ -277,7 +277,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
             sadshiv = okpro[i]["magnet"]
             okiknow = okpro[i]["name"]
             shivsize = okpro[i]["size"]
-            mystery = okpro[i]["type"]
+            Mlo = okpro[i]["type"]
             seeders = okpro[i]["seeder"]
             okayz = f"**Title :** `{okiknow}` \n**Size :** `{shivsize}` \n**Type :** `{mystery}` \n**Seeder :** `{seeders}` \n**Leecher :** `{okpros}` \n**Magnet :** `{sadshiv}` "
             sedme = f"Size : {shivsize} Type : {mystery} Age : {seds}"
@@ -298,7 +298,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
             sadshiv = sedz["magnet"]
             okiknow = sedz["name"]
             shivsize = sedz["size"]
-            mystery = sedz["type"]
+            Mlo = sedz["type"]
             seeders = sedz["seeder"]
             okayz = f"**Title :** `{okiknow}` \n**Size :** `{shivsize}` \n**Type :** `{mystery}` \n**Seeder :** `{seeders}` \n**Leecher :** `{okpros}` \n**Magnet :** `{sadshiv}` "
             sedme = f"Size : {shivsize} Type : {mystery} Age : {seds}"
@@ -344,7 +344,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
         thums = mio["channel"]
         td = mio["duration"]
         tw = mio["views"]
-        kekme = f"https://img.youtube.com/vi/{mysteryz}/hqdefault.jpg"
+        kekme = f"https://telegra.ph/file/33e3b8f5864b42a9ebcec.jpg"
         okayz = f"**Title :** `{thum}` \n**Link :** `{mo}` \n**Channel :** `{thums}` \n**Views :** `{tw}` \n**Duration :** `{td}`"
         hmmkek = f"Channel : {thums} \nDuration : {td} \nViews : {tw}"
         results.append(
@@ -406,7 +406,7 @@ async def inline_handler(event):
     if query == None:
         resulte = builder.article(
             title="Usage Guide.",
-            description="(C) @MysteryOT",
+            description="(C) @MLO_USERBOT",
             text=f"**How To Use Me?** \n**Youtube :** `@{firstname} yt <query>` \n**Example :** `@{firstname} yt why we lose song` \n\n**Torrent :** `@{firstname} torrent <query>` \n**Example :** `@{firstname} torrent avengers endgame ` \n\n**JioSaavan :** `@{firstname} jm <query>` \n**Example :** `@{firstname} jm dilbaar`",
             buttons=[
                 [Button.url("Contact Me", f"t.me/{firstname}")],
