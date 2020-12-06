@@ -1,4 +1,5 @@
-<p align="center"><a href="https://t.me/spamreporterr"><img src="https://telegra.ph/file/6a0749dec068cf9e47b82.jpg" width="5000"></a></p> 
+<p align="center"><a href="https://t.me/MLO_USERBOT
+"><img src="https://telegra.ph/file/6a0749dec068cf9e47b82.jpg" width="5000"></a></p> 
 <h2 align="center"><b>MLO-USERBOT❤️</b></h2>
 <h4 align="center">A Powerful, Smart And Romantic Userbot In Telethon.</h4>
 
@@ -29,7 +30,7 @@
 
 # Deploying To Heroku
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prashu1708/MLO-BOT)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/prashu32/MLOBOT)
 
 
 
