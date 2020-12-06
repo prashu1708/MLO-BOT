@@ -36,7 +36,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
             # https://t.me/TelethonChat/115200
             await event.edit(buttons=buttons)
         else:
-            reply_pop_up_alert = "Kya dabae ja rha h bsdk. Apna khudka bot bna jake... @HellBot_Official!"
+            reply_pop_up_alert = "Kya dabae ja rha h bsdk. Apna khudka bot bna jake🤨... @MLO_USERBOT !"
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
@@ -61,7 +61,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"close")))
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
-            await event.edit("⚜️Hêllẞø† Menu Provider Is now Closed⚜️\n\n      © Hêllẞø† ™")
+            await event.edit("🔱Mloẞø† Menu Provider Is now Closed⚜️\n\n      © Mloẞø† ™")
 
 
 
@@ -82,7 +82,7 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
         else:
             reply_pop_up_alert = help_string
         reply_pop_up_alert += "\n Use .unload {} to remove this plugin\n\
-            © Hêllẞø†™".format(plugin_name)
+            © Mloẞø†™".format(plugin_name)
         try:
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         except: 
