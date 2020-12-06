@@ -6,12 +6,12 @@
     "telegram",
     "Mlo userbot",
     "plugin",
-    "telegram-mysterybot",
+    "telegram-Mlobot",
     "productivity"
   ],
-  "repository": "https://github.com/MysteryxD/Mystery",
-  "website": "www.mysteryxd.ml",
-  "success_url": "t.me/MysteryOT",
+  "repository": "https://github.com/prashu1708/MLO-BOT",
+  "website": "www.prashu1708.ml",
+  "success_url": "t.me/mlousersupport",
   "stack": "container",
   "env": {
     "ENV": {
@@ -20,11 +20,11 @@
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
-      "value": "./mysterybot/DOWNLOADS/",
+      "value": "./Mlo-bot/DOWNLOADS/",
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Enter Username Here. Like @MysteryxD",
+      "description": "Enter Username Here. Like @mbbs_lover",
       "value": ""
     },
     "APP_ID": {
