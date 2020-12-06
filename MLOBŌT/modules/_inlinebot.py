@@ -12,7 +12,7 @@ from mysterybot.modules import inlinestats
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-    WARN_PIC = "https://telegra.ph/file/1bf4c93b72120b486af88.jpg"
+    WARN_PIC = "https://telegra.ph/file/33e3b8f5864b42a9ebcec.jpg"
 else:
     WARN_PIC = PMPERMIT_PIC
 LOG_CHAT = Config.PRIVATE_GROUP_ID
@@ -24,7 +24,7 @@ async def inline_handler(event):
     builder = event.builder
     result = None
     query = event.text
-    if event.query.user_id == bot.uid and query.startswith("mystery"):
+    if event.query.user_id == bot.uid and query.startswith("Mlo Userbot"):
         rev_text = query[::-1]
         buttons = paginate_help(0, CMD_HELP, "helpme")
         result = builder.article(
@@ -37,11 +37,12 @@ async def inline_handler(event):
     elif event.query.user_id == bot.uid and query == "stats":
         result = builder.article(
             title="Stats",
-            text=f"**Showing Stats For {DEFAULTUSER}'s mystery** \nNote --> Only Owner Can Check This \n(C) @mysteryOT",
+            text=f"**Showing Stats For {DEFAULTUSER}'s MLO GANG
+** \nNote --> Only Owner Can Check This \n(C) @MlouserOP",
             buttons=[
                 [custom.Button.inline("Show Stats ", data="terminator")],
-                [Button.url("Repo 🇮🇳", "https://github.com/mysteryxd/mysteryUserbot")],
-                [Button.url("Join Channel ❤️", "t.me/mysteryot")],
+                [Button.url("Repo 🇮🇳", "https://github.com/prashu1708/MLO-BOT")],
+                [Button.url("Join Channel ❤️", "t.me/MLO_USERBOT")],
             ],
         )
         await event.answer([result])
@@ -50,7 +51,7 @@ async def inline_handler(event):
             file=WARN_PIC,
             text=query,
             buttons=[
-                [custom.Button.inline("Spamming", data="dontspamnigga")],
+                [custom.Button.inline("Spamming", data="SPAM MT KR BETA")],
                 [
                     custom.Button.inline(
                         "Casual Talk",
@@ -75,7 +76,7 @@ async def on_plug_in_callback_query_handler(event):
         # https://t.me/TelethonChat/115200
         await event.edit(buttons=buttons)
     else:
-        reply_popp_up_alert = "Please get your own Userbot, and don't use mine!"
+        reply_popp_up_alert = "Apna bna Userbot, and don't use mine!"
         await event.answer(reply_popp_up_alert, cache_time=0, alert=True)
 
 
@@ -111,7 +112,7 @@ async def on_plug_in_callback_query_handler(event):
     if plugin_name in CMD_HELP:
         help_string = f"**💡 PLUGIN NAME 💡 :** `{plugin_name}` \n{CMD_HELP[plugin_name]}"
     reply_pop_up_alert = help_string
-    reply_pop_up_alert += "\n\n**(C) @MysteryOT** ".format(plugin_name)
+    reply_pop_up_alert += "\n\n**(C) @MLO_USERBOT** ".format(plugin_name)
     if len(reply_pop_up_alert) >= 4096:
         crackexy = "`Pasting Your Help Menu.`"
         await event.answer(crackexy, cache_time=0, alert=True)
