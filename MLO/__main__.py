@@ -10,7 +10,7 @@ from mysterybot.Configs import Config
 from mysterybot.utils import load_module, start_assistant
 from var import Var
 
-sed = logging.getLogger("mystery")
+sed = logging.getLogger("mlo")
 
 
 async def add_bot(bot_token):
