@@ -7,8 +7,8 @@ import requests
 from telethon import Button, custom, events, functions
 from youtubesearchpython import SearchVideos
 
-from mysterybot import ALIVE_NAME, CMD_HELP, CMD_LIST
-from mysterybot.modules import inlinestats
+from Mlo Userbot import ALIVE_NAME, CMD_HELP, CMD_LIST
+from Mlo Userbot.modules import inlinestats
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
@@ -16,7 +16,7 @@ if PMPERMIT_PIC is None:
 else:
     WARN_PIC = PMPERMIT_PIC
 LOG_CHAT = Config.PRIVATE_GROUP_ID
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "mystery"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "MLO GANGSTER"
 
 
 @tgbot.on(events.InlineQuery)
@@ -38,7 +38,7 @@ async def inline_handler(event):
         result = builder.article(
             title="Stats",
             text=f"**Showing Stats For {DEFAULTUSER}'s MLO GANG
-** \nNote --> Only Owner Can Check This \n(C) @MlouserOP",
+** \nNote --> Only Owner Can Check This \n(C) @Mlo_Userbot",
             buttons=[
                 [custom.Button.inline("Show Stats ", data="terminator")],
                 [Button.url("Repo 🇮🇳", "https://github.com/prashu1708/MLO-BOT")],
