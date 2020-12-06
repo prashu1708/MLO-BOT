@@ -19,7 +19,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
 OFFICIAL_UPSTREAM_REPO = Config.UPSTREAM_REPO
 BOT_IS_UP_TO_DATE = "**MLO USERBOT** is up-to-date surr."
 NEW_BOT_UP_DATE_FOUND = (
-    "new update found for {branch_name}\n" "changelog: \n\n{changelog}\n" "updating your Hêllẞø† ..."
+    "new update found for {branch_name}\n" "changelog: \n\n{changelog}\n" "updating your Mlobøt ..."
 )
 NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your Mlo🤪...`"
 REPO_REMOTE_NAME = "temponame"
