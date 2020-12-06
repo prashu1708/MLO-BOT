@@ -141,14 +141,14 @@ if ENV:
         TAG_FEATURE = os.environ.get("TAG_FEATURE", "DISABLE")
         ASSISTANT_LOG = int(os.environ.get("ASSISTANT_LOG", False))
         UPSTREAM_REPO = os.environ.get(
-            "UPSTREAM_REPO", "https://github.com/MysteryxD/Mystery"
+            "UPSTREAM_REPO", "https://github.com/prashu1708/Mlo-bot"
         )
         ALIVE_IMAGE = os.environ.get(
-            "ALIVE_IMAGE", "https://telegra.ph/file/1bf4c93b72120b486af88.jpg"
+            "ALIVE_IMAGE", "https://telegra.ph/file/6a0749dec068cf9e47b82.jpg"
         )
         ASSISTANT_START_PIC = os.environ.get(
             "ASSISTANT_START_PIC",
-            "https://telegra.ph/file/1d93e410876fa48dd75a8.jpg",
+            "https://telegra.ph/file/6a0749dec068cf9e47b82.jpg",
         )
         TESSDATA_PREFIX = os.environ.get(
             "TESSDATA_PREFIX", "/usr/share/tesseract-ocr/4.00/tessdata"
