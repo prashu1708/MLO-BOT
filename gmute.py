@@ -9,7 +9,7 @@ async def startgmute(event):
     if event.fwd_from:
         return
     elif event.is_private:
-        await event.edit("Putting Dick🍆 💦 In Son mouth!!")
+        await event.edit("putting dick 🤣💦 In Son mouth!!")
         await asyncio.sleep(3)
         private = True
     reply = await event.get_reply_message()
@@ -30,7 +30,7 @@ async def startgmute(event):
     except Exception as e:
         await event.edit("Error occured!\nError is " + str(e))
     else:
-        await event.edit("Son Can't speek now.... Filled His Mouth With Cum😉")
+        await event.edit("Son Can't speek now.... Filled His Mouth With Cum😥🤪")
 
 #@command(outgoing=True, pattern=r"^.ungmute ?(\d+)?")
 @borg.on(admin_cmd(pattern=r"ungmute ?(\d+)?"))
