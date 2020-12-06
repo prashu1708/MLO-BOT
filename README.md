@@ -35,7 +35,7 @@
 
 Simply clone the repository and run the main file:
 ```sh
-git clone https://github.com/prashu1708/MLO-BOT
+git clone https://github.com/mbbslove/mlo
 cd MLO
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
