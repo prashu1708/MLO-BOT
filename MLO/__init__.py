@@ -17,7 +17,7 @@ from telethon.sessions import StringSession
 
 from var import Var
 
-from .function import mysteryfunction as topfunc
+from .function import mlo function as topfunc
 
 Lastupdate = time.time()
 
