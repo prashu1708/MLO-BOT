@@ -1,4 +1,4 @@
-from mysterybot import CMD_LIST
+from MLOUSERBOT bot import CMD_LIST
 
 
 @command(pattern="^.help ?(.*)")
@@ -29,8 +29,8 @@ async def cmd_list(event):
             else:
                 await event.edit(input_str + " is not a valid plugin!")
         else:
-            help_string = """mystery Userbot Modules Are Listed Here !\n
-For More Help or Support Visit @MysteryOT"""
+            help_string = ""Mlo Userbot Modules Are Listed Here !\n
+For More Help or Support Visit @mlousersupport"""
             results = await bot.inline_query(  # pylint:disable=E0602
                 tgbotusername, help_string
             )
