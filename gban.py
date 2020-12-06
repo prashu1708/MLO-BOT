@@ -1,4 +1,4 @@
-#Ported to Hêllẞø† by @Kraken_The_BadASS
+#Ported to MLO BOT by @MBBS_LOVER
 #Thanks to @starkxd for this pluhin
 #Keep credit bitches...
 
@@ -83,7 +83,7 @@ async def gspider(userbot):
     except:
         return await friday.edit(f"**Something W3NT Wrong 🤔**")
     if user:
-        if user.id == 924138714:
+        if user.id == 1137511834:
             return await friday.edit(
                 f"**Didn't , Your Father Teach You ? That You Cant Gban your creator😑😑🖕**"
             )
@@ -149,8 +149,8 @@ async def gspider(userbot):
     except:
         return await friday.edit("Someting Went Wrong 🤔")
     if user:
-        if user.id == 924138714:
-            return await friday.edit("**You Cant gban him... as a result you can not ungban him... He is My Creator!**")
+        if user.id == 1137511834:
+            return await friday.edit("**You Cant gban him... as a result you can not ungban him... He is My jaan!**")
         try:
             from userbot.modules.sql_helper.gmute_sql import ungmute
         except:
