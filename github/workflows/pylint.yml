@@ -32,5 +32,6 @@ jobs:
           commit_options: '--no-verify'
           repository: .
           commit_user_name: Mbbs_lover
-          commit_user_email: MysteryxDShiv@gmail.com
-          commit_author: MysteryxDs <MysteryxDShiv@gmail.com>
+          commit_user_email: mbbslove037@gmail.com
+
+          commit_author: mbbs_lover <Mbbslove037@gmail.com>
